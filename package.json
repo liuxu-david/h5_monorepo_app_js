@@ -4,7 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "rm -rf node_modules common/*/node_modules packages/*/node_modules",
+    "spaceStation:dev": "pnpm --filter space-station dev:h5",
+    "lhb:dev": "pnpm --filter lhb dev:h5"
+  },
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=10"
   },
   "keywords": [],
   "author": "",
