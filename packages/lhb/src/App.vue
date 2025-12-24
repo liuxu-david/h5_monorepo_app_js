@@ -1,7 +1,8 @@
 <script setup>
 import { onLaunch } from "@dcloudio/uni-app";
+import dayjs from 'dayjs'
 onLaunch(() => {
-  console.log('App Launch')
+  console.log('App Launch', dayjs().format('YYYY-MM-DD HH:mm:ss'))
 });
 </script>
 

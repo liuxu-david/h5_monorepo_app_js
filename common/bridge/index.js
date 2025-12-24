@@ -13,6 +13,7 @@ export const updateAppCallbacks = (cbMap) => {
 };
 // h5调用原生(通知原生事件)
 export const callAppMethods = async (podata) => {
+        console.log("🚀 ~ callAppMethods ~ :", osName)
     const osName = uni.getSystemInfoSync()?.osName;
     console.log("🚀 ~ callAppMethods ~ :", osName)
     switch (osName) {

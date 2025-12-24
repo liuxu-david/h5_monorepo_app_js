@@ -10,7 +10,7 @@
 <script setup>
 import { ref } from 'vue';
 import { callAppMethods, updateAppCallbacks } from '@common/bridge'
-callAppMethods("1111")
+console.log('hello uni-app' )
 const title = ref('Hello');
 </script>
 
